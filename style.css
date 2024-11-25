@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+header {
+    background: #272a29;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.2em;
+}
+/* Hero Section */
+.hero {
+    background-image: url('https://avatars.githubusercontent.com/u/147375542?s=400&u=23913d24a820a33c410580f55dc2271db2b01a29&v=4'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire hero section */
+    background-position: center; /* Centers the image within the container */
+    text-align: center;
+    padding: 100px 20px; /* Adds padding to ensure text is not too close to edges */
+    color: rgb(173, 35, 35); /* Text color */
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+
+/* About Section */
+#about {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 20px;
+    text-align: center;
+}
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.project-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    background: #fff;
+}
+.project-card h3 {
+    margin: 10px 0;
+}
+.project-card a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+/* Skills Section */
+#skills {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.skill {
+    padding: 10px 20px;
+    background: #6c63ff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 20px;
+    text-align: center;
+}
+#contact-form input, #contact-form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+#contact-form button {
+    padding: 10px 20px;
+    background: #6c63ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
+footer a {
+    color: #6c63ff;
+    margin: 0 5px;
+}
+/* Services Section */
+#services {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.service-card {
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.service-card h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+.service-card p {
+    color: #555;
+}
